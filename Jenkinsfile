@@ -23,7 +23,7 @@ stage("Package") {
 stage("Docker build") {
      steps {
 	     
-          sh "docker build -t nikhilnidhi/calculator_1 ."
+          sh "docker build -t sandyverden/calculator_1 ."
      }
 }
 
