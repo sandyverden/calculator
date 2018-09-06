@@ -1,8 +1,8 @@
-version: "3"
+version: "2"
 services:
      calculator:
           image: calculator_1:latest
           ports:
-               - 8080
+               - 8181
      redis:
           image: redis:latest
