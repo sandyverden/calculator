@@ -29,9 +29,9 @@ stage("Docker build") {
 
 stage("Docker push") {
      steps {
-	  sh "docker login -u nikhilnidhi -p chinki12"
+	  //sh "docker login -u nikhilnidhi -p chinki12"
 
-          sh "docker push nikhilnidhi/calculator_1"
+          sh "docker push sandyverden/calculator_1"
      }
 }
 stage("Deploy to staging") {
