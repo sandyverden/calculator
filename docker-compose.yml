@@ -1,7 +1,7 @@
 version: "2"
 services:
      calculator:
-          image: nikhilnidhi/calculator_1
+          image: sandyverden/calculator_1
           ports:
                - 8181
      redis:
